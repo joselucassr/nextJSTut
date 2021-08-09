@@ -14,7 +14,7 @@ export function getStaticProps() {
   const staticDate = new Date();
   const staticDateString = staticDate.toGMTString();
 
-  // Forçar deploy
+  // Forçar deploy aaaaaaaaaa
   return {
     props: {
       staticDateString,
